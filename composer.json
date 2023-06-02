@@ -1,0 +1,22 @@
+{
+    "name": "yc-open/midjourney",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YcOpen\\Midjourney\\": "src/"
+        },
+        "files": [
+          "./src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "楚羽幽",
+            "email": "cy958416459@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.7"
+    }
+}
